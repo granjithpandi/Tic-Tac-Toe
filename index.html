@@ -1,0 +1,34 @@
+<!--
+  Author Details
+	==============
+	Author: Ranjith Pandi
+
+	Author URL: http://ranjithpandi.com
+
+	Attribution is must on every page, where this work is used.
+
+	For Attribution removal request. please consider contacting us through http://ranjithpandi.com/#contact
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tic Tac Toe</title>
+<link rel="stylesheet" href="styles/tictactoe.css">
+</head>
+<body>
+<div class="tictactoe"></div>
+<div class="result">
+  <div class="output">
+    <div class="won"></div>
+    <div class="replay">Try Again</div>
+  </div>
+</div>
+<script type="text/javascript" src="javascript/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="javascript/tictactoe.js"></script>
+<script>
+$(document).ready(function() {
+  TicTacToe.initGame();
+});
+</script>
+</body>
+</html>

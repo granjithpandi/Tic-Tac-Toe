@@ -1,0 +1,72 @@
+/*  Author Details
+  ==============
+  Author: Ranjith Pandi
+
+  Author URL: http://ranjithpandi.com
+
+  Attribution is must on every page, where this work is used.
+
+  For Attribution removal request. please consider contacting us through http://ranjithpandi.com/#contact
+*/
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.tictactoe {
+  height: 606px;
+  width: 606px;
+  margin: 30px auto;
+  border: 1px solid #e5e5e5;
+}
+
+.column{
+  height: 200px;
+  width: 200px;
+  float: left;
+  border: 1px solid #e5e5e5;
+  font-size: 140px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.result{
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background-color: #000000;
+}
+
+.output{
+    width: 500px;
+    height: 300px;
+    margin: 100px auto;
+    text-align: center;
+    color: #000;
+    background: #e5e5e5;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+}
+
+.won{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.replay{
+  width: 150px;
+  margin: 0 auto;
+  font-size: 20px;
+  background: #000;
+  color: #FFF;
+  border-radius: 20px;
+  padding: 15px;
+  cursor: pointer;
+}
